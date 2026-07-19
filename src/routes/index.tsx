@@ -34,16 +34,16 @@ function Home() {
       </p>
       <div className="flex gap-4">
         <Link
-          to="/onboarding"
+          to="/pricing"
           className="rounded-lg bg-indigo-600 px-6 py-3 font-medium text-white hover:bg-indigo-700 transition"
         >
-          Start Onboarding
+          View Pricing
         </Link>
         <Link
-          to="/admin"
+          to="/portal"
           className="rounded-lg border border-gray-300 px-6 py-3 font-medium text-gray-700 hover:bg-gray-50 transition"
         >
-          Admin Dashboard
+          Existing clients → Portal
         </Link>
       </div>
       <footer className="absolute bottom-6 text-sm text-gray-400 dark:text-gray-600">

@@ -39,6 +39,9 @@ function Nav() {
           LeadLoop
         </Link>
         <div className="flex items-center gap-4 text-sm font-medium">
+          <Link to="/pricing" className="text-gray-600 hover:text-indigo-600 transition">
+            Pricing
+          </Link>
           <Link to="/dashboard" className="text-gray-600 hover:text-indigo-600 transition">
             Dashboard
           </Link>
